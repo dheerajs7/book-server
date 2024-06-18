@@ -11,6 +11,5 @@ export const adminController ={
     catch(err){
         res.status(401).json({err:"server error", serverError:err})
     }
-
-    }
+}
 }
