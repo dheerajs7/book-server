@@ -7,3 +7,4 @@ const adminSchema = new mongoose.Schema({
 });
 
 export const Admin = new mongoose.model("Admin", adminSchema);
+// dd
